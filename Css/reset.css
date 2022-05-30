@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+:root{
+    --pink-color:#e4aeac;
+    --darkgreen-color:#163c42;
+    --darkblack-color: #081013;
+    --darkgray-color: #5c5e61;
+    --light-color: #f7f7f7;
+    --gray-color: #9ea0a2;
+    --brown-color:#4d2d30;
+    --darkpink-color:#bf6564;
+    
+
+
+    --border-raduis-sm: 0.5rem;
+    --border-raduis-md:1rem;
+    --border-raduis-lg:1.5rem;
+    --border-raduis-xl:2rem;
+    --border-raduis-2xl:2.5rem;
+    --border-raduis-3xl:3rem;
+
+    --font-size-sm:0.75rem;
+    --font-size-md:1rem;
+    --font-size-lg:1.25rem;
+    --font-size-xl:1.5rem;
+
+}
+.mrg1{
+    margin: 1rem 1rem 1rem 1rem;   
+}
+.mrg1B{
+    margin-bottom: 1rem;
+}
+.mrg1T{
+    margin-top: 1rem;
+}
+.mrg1L{
+    margin-left: 1rem;
+}
+.mrg1R{
+    margin-right: 1rem;
+}
+.mrg2B{
+    margin-bottom: 2rem;
+}
+.mrg2T{
+    margin-top: 2rem;
+}
+.mrg2L{
+    margin-left: 2rem;
+}
+.mrg2R{
+    margin-right: 2rem;
+}
+/* px, rem, em, pt, percent*/
+html{
+    font-size:62.5%;/*برای رسپانسیو کردن*/
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    /* background-color:var(--primary-color); */
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;/*فونت را از تگ html برمیدارد*/
+    
+}
+
+button, span, input[type="text"]::placeholder{
+    font-family: inherit;
+}
+
+ul{
+    list-style: none;/*بولت پوینت غیر فعال شود*/
+}
+
+a{
+    text-decoration: none;/*رنگ آبی لینک غیر فعال شود*/
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    /*padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0 1rem;*/
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-color);
+  }
+  h1{
+      font-size: 4rem;
+      font-weight: 600;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 3.3rem;
+  }
+  
+  p{
+    color: var(--blue-color);
+  }
+  
+input[type=text]{
+    border:none;
+}
+.btn{
+    border: none;
+    background-color: none;
+}

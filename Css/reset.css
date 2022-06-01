@@ -50,6 +50,9 @@
 .mrg1R{
     margin-right: 1rem;
 }
+.mrg2{
+    margin: 2rem 2rem 2rem 2rem;   
+}
 .mrg2B{
     margin-bottom: 2rem;
 }
@@ -62,6 +65,22 @@
 .mrg2R{
     margin-right: 2rem;
 }
+.mrg3{
+    margin: 3rem 3rem 3rem 3rem;   
+}
+.mrg2B{
+    margin-bottom: 3rem;
+}
+.mrg2T{
+    margin-top: 3rem;
+}
+.mrg2L{
+    margin-left: 3rem;
+}
+.mrg2R{
+    margin-right: 3rem;
+}
+
 /* px, rem, em, pt, percent*/
 html{
     font-size:62.5%;/*برای رسپانسیو کردن*/

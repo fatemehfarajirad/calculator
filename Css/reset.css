@@ -80,7 +80,51 @@
 .mrg2R{
     margin-right: 3rem;
 }
-
+.pad1{
+    padding: 1rem 1rem 1rem 1rem;
+}
+.pad1T{
+    padding-top: 1rem;
+}
+.pad1L{
+    padding-left: 1rem;
+}
+.pad1R{
+    padding-right: 1rem;
+}
+.pad1B{
+    padding-bottom: 1rem;
+}
+.pad2{
+    padding: 2rem 2rem 2rem 2rem;
+}
+.pad2T{
+    padding-top: 2rem;
+}
+.pad2L{
+    padding-left: 2rem;
+}
+.pad2R{
+    padding-right: 2rem;
+}
+.pad2B{
+    padding-bottom: 2rem;
+}
+.pad3{
+    padding: 3rem 3rem 3rem 3rem;
+}
+.pad1T{
+    padding-top: 3rem;
+}
+.pad1L{
+    padding-left: 3rem;
+}
+.pad1R{
+    padding-right: 3rem;
+}
+.pad1B{
+    padding-bottom: 3rem;
+}
 /* px, rem, em, pt, percent*/
 html{
     font-size:62.5%;/*برای رسپانسیو کردن*/
